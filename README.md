@@ -3,6 +3,11 @@
   <img src="vnc-window.png" width="350" />
  vnc window websocket selenoid
 
+### Установка
+```sh
+npm install
+```
+
 ### Настройка
 src\components\VncCard\VncScreen.js
 ```js
@@ -18,4 +23,9 @@ createRFB(link, port, session, secure) {
                 password: "selenoid",
             },
         });
+```
+
+### Запуск
+```sh
+npm start
 ```
